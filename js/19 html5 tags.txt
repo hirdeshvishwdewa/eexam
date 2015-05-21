@@ -1,0 +1,37 @@
+1. article: This is the tag that adds an outline to write-ups. It allows you to add visual appeal to particular segments of text in your page.
+
+2. aside: This tag is used when you need to differentiate an article from the principle materials on the page.
+
+3. bdi: Sometimes a part of your text needs to be given a diverse direction as compared to the text that is describing it. This is the tag that allows you to do that.
+
+4. command: This tag allows you to create command buttons that your users can click on in order to perform certain actions.
+
+5. particulars: Use this tag for when you need to show or hide a part of the data from your content.
+
+6. summary: The summary tag is used to define a heading for the details element. The user can click on the heading to display or hide the details.
+
+7. figcaption: This tag is used to put in a caption for pictures on your page.
+
+8. footer: This tag is used to add a footer to your online documents.
+
+9. header: Use this command when you need to screen a header for an online document.
+
+10. hgroup: This is the tag that is used to set stages for the h1 to h6 tags, when heading tags have been used. You can use this tag to outline marked content material.
+
+11. nav: This is the tag used to define links that the user can use for navigation.
+
+12. progress: This tag is used to represent the progress of a specific activity.
+
+13. charactersrp: When you need to screen alternate text for browsers, this tag will be put to use. It is usually used for cases where the ruby annotation is not available.
+
+14. Portion: This tag is used when a part of a document needs to be outlined with the time and day components.
+
+15. Wbr: This tag is used in order to determine the chance of a line break.
+
+16. Audio: This tag is used for audio content.
+
+17. Video: This is the tag for video and motion pictures.
+
+18. embed: Use this tag to specify a plu-in monitor. It also allows text for defining the element.
+
+19. output: This tag is used for defining the output of a particular calculation. 

@@ -1,0 +1,300 @@
+/* 
+    Document   : style
+    Created on : Apr 10, 2013, 11:21:33 PM
+    Author     : Hirdesh Vishwdewa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body {
+		font-family: 'calibri';
+	}
+	p {
+		margin-top:40px;
+		color:grey;
+		word-spacing:3px;
+		letter-spacing:1px;
+		font-family:'Calibri','Arial','Lucida','Sarif';
+		text-align:justify;
+		font-size:105%;
+	}
+	
+            #content
+            {
+                position: relative;
+                width: 800px;
+                height: 550px;
+            }
+            #list
+            {
+               width: 224px;
+               height: 250px;
+            }
+            span.hori_list
+            {
+                position: relative;
+				width:1024px;
+				top:15px;
+				left:5px;
+            }
+            #deep_table
+            {
+                position: relative;
+                top: 0px;
+				width:1024px;
+				height:auto;
+				box-shadow:3px 5px 10px grey;
+				
+            }
+            div.hori_list_tab
+            {
+                padding: 5px;
+                background-color: #6F2302;//rgb(111,35,2);
+                color: white;
+                border-radius: 5px;
+                display: inline;
+                width: 200px;
+                text-align: center;
+                font-family: 'arial';
+                font-size: 14px;
+				box-shadow:5px 5px 10px grey;
+				-moz-box-shadow:5px 5px 10px grey;
+                
+			}
+            div.hori_list_tab:hover, div.hori_list_tab:active
+            {
+                padding: 5px;
+                background-color: rgb(111,35,2);
+                color: white;
+                border-radius: 5px;
+                display: inline;
+                width: 200px;
+                opacity:.80;
+				box-shadow:5px 5px 20px grey;
+				-moz-box-shadow:5px 5px 20px grey;
+                
+            }
+            a.link
+            {
+                text-decoration: none;
+				text-shadow:1px 1px 25px white;
+            }
+			#startYourFirstTestBackDiv{
+				box-shadow:1px 0px 1px grey;
+				-moz-box-shadow:0px 5px 10px grey;
+				padding:10px;
+				margin-top:15px;
+				margin-left:5px;
+				border-radius:10px;
+			}
+			#closeTabButton{
+				float:right;
+				visibility:hidden;
+				text-decoration:none;
+				background-color:grey;
+				color:white;
+				border-radius:3px;
+			}
+			#indexPageContent {
+				position:relative;
+				margin-top:40px;
+				margin-left:40px;
+				border-radius:10px;
+				
+			}
+			.login-form {
+				margin-top:10px; box-shadow:1px 0px 1px grey; padding:5px; background-color:;
+			}
+            .que_button, .que_button:visited
+            {
+				position:relative;
+				top:-1px;
+                font-family: Verdana,Arial,Helvetica,sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+                background-color: #cccccc;
+                text-align: center;
+                border: 1px #666666 solid;
+                display: inline;
+                color: black;
+                text-decoration: none;
+                padding-top: 1px; padding-left: 10px; padding-right: 10px; padding-bottom: 1px;
+                border-radius: 3px;
+				box-shadow:2px 2px 5px blue;
+				-moz-box-shadow:2px 2px 5px blue;
+				
+            }
+            .que_button:hover
+            {
+				position:relative;
+				top:0px;
+				font-family: Verdana,Arial,Helvetica,sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+                background-position: left;
+                text-align: center;
+                border: 1px #666666 ridge;
+                display: inline;
+                color: black;
+                text-decoration: none;
+                padding-top: 1px; padding-left: 10px; padding-right: 10px; padding-bottom: 1px;
+                border-radius: 3px;
+                opacity: .90;
+				box-shadow:2px 2px 5px blue;
+				-moz-box-shadow:2px 2px 5px blue;
+                background-color: #80CC99;
+            }
+			 .que_button:active
+            {
+				position:relative;
+				top:0px;
+				font-family: Verdana,Arial,Helvetica,sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+                background-position: left;
+                text-align: center;
+                border: 1px #666666 ridge;
+                display: inline;
+                color: white;
+                text-decoration: none;
+                padding-top: 1px; padding-left: 10px; padding-right: 10px; padding-bottom: 1px;
+                border-radius: 3px;
+                opacity: .80;
+				box-shadow:2px 2px 10px blue;
+				-moz-box-shadow:2px 2px 10px blue;
+                background-color: #80CC99;
+            }
+			a.submitButton, a.submitButton:visited{
+				Position:relative;
+				padding:5px;
+				background-color:green;
+				color:white;
+				text-decoration:none;
+				border-radius:4px;
+				font-size:24px;
+				font-weight:bold;
+				font-family:'Arial';
+				text-shadow:1px 1px 25px black;
+				box-shadow:4px 0px 20px grey;
+				-moz-box-shadow:5px 5px 10px grey;
+			}
+			a.submitButton:hover{
+				Position:relative;
+				padding:5px;
+				background-color:lightgreen;
+				color:white;
+				text-decoration:none;
+				border-radius:4px;
+				font-weight:bold;
+				font-family:'Arial';
+				opacity:.95;
+				text-shadow:1px 1px 10px green;
+				box-shadow:5px 5px 20px grey;
+				-moz-box-shadow:5px 5px 20px grey;
+                
+			}
+			a.submitButton:active{
+				Position:relative;
+				padding:5px;
+				background-color:green;
+				color:green;
+				text-decoration:none;
+				border-radius:4px;
+				font-weight:bold;
+				font-family:'Arial';
+				text-shadow:1px 1px 1px white;
+				box-shadow:5px 5px 30px grey;
+				-moz-box-shadow:5px 5px 30px grey;
+                
+			}
+			
+			div.forgotPassword,a {
+				font-family:'Arial'; color:grey; font-size:14px;
+			}
+			div.loginForm
+			{
+			 	color:green;
+				padding:10px;
+				border-radius:15px;
+			}
+                        #txtSearch {
+                            position: relative; top:3px; font-size: 20px; left:20px; height:32px; color: #000066;
+                        }
+                        #search_result{
+                            position: absolute;
+                            margin-top: 2px;
+                            margin-left: 182px;
+                            background-color:lightblue;
+                            color:black;
+                            font-family: 'arial';
+                            font-weight: bold;
+                            text-decoration:none;
+                            border-radius:4px;
+                            width: 400px;
+                            z-index: 9;
+                            padding: 6px;
+                        }
+						#succsessDiv {
+							margin-left:225px;
+						}
+						.recentToppers {
+							color:white; width: auto; padding: 3px; border-radius: 10px; font-family: 'arial' , 'fantasy'; font-style: oblique; font-weight: bold; font-size: 25px; background-color: #3366CC; text-align:center;
+						}
+						#nameHint {
+							font-family: 'arial' , 'fantasy'; font-size: 10px; background-color: lightgrey; color:black;
+						}
+						#div2 {
+							margin-top:4px;
+							padding: 20px; 
+							border-radius: 10px; 
+							background-color:lightblue;
+							border: 1px blue solid;
+						}
+						.examNote {
+							 position:relative; font-family: 'arial'; background-color:lightgrey; box-shadow:2px 2px 4px grey; border-radius:7px; padding:4px; width:inherit;
+						}
+						#editButton {
+							position:relative; top:10px; text-decoration:none; font-family: 'arial'; background-color:lightgrey; box-shadow:2px 2px 4px grey; border-radius:4px; padding:3px;
+						}
+						#okButton {
+							position:relative; top:10px; text-decoration:none; font-family: 'arial'; background-color:lightgrey; box-shadow:2px 2px 4px grey; border-radius:4px;
+						}
+						#studentDisplay {
+							margin-top:2px;
+							color:#000066;
+							padding:5px;
+							background-color:lightblue;
+							border-radius:4px;
+							height:188px;
+						}
+						#txtStudent {
+							color:#000066;
+						}
+						a.inbox_hori {
+							border-radius:5px;
+							color:blue;
+							text-decoration:none;
+							font-family:'Calibri';
+						}
+						div.inbox_slabs,div.inbox_slabs:visited {
+							padding:20px;
+							background-color:lightblue;
+							color:blue;
+							border-radius:5px; 
+							box-shadow: 1px 2px 3px blue;
+						}
+						div.inbox_slabs:hover,div.inbox_slabs:active {
+							padding:20px;
+							background-color:lightgreen;
+							color:green;
+							border-radius:5px; 
+							box-shadow: 1px 2px 3px green;
+						}

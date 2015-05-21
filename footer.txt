@@ -1,0 +1,7 @@
+<tr>
+	<td  width="100%" colspan="2">
+		<div style="left:0; top:0; background-color: #3366CC; color:white; text-align:center; height:50px;">
+			&copy; All Rights Reserved to eExam.co.in<br />Web Application create by <a href="about.php" style="color:white;">Hirdesh Vishwdewa & team members</a>.
+		</div>
+	</td>
+</tr>
